@@ -30,7 +30,7 @@ source venv/bin/activate
 ### 3. Crear dependencias
 pip install -r requirements.txt
 
-### 4. Editar el .env con la API_URL Y CANDIDATE_KEY
+### 4. Importante dejar el .env.template en .env con la API_URL Y CANDIDATE_KEY
 API_URL=[xxxxx.com)
 CANDIDATE_KEY=xxxxx
 
