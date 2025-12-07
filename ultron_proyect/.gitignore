@@ -1,2 +1,21 @@
+# Byte-compiled / optimized files
 __pycache__/
+*.pyc
+
+# Test cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
 .env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/

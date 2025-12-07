@@ -35,18 +35,13 @@ API_URL=[xxxxx.com)
 CANDIDATE_KEY=xxxxx
 
 ### 5. Ejecución
-python main.py
+python run.py
 
-### Finalmete dejo una estructura del proyecto
-ultron_hack/
-│
-├── main.py           # Punto de entrada. Orquesta la ejecución de los problemas.
-├── config.py         # Gestión de configuración y variables de entorno.
-├── client.py         # Capa de infraestructura. Maneja la comunicación HTTP con la API.
-├── solvers.py        # Capa de lógica de negocio. Contiene los algoritmos de resolución.
-├── .env              # (Ignorado por Git) Variables sensibles.
-├── .gitignore        # Archivos excluidos del control de versiones.
-└── requirements.txt  # Dependencias del proyecto.
+### 6. Testing
+Ejecutar en terminal pytest
+Resultado esperado
+ [100%]
+=========================================== 3 passed in 0.05s ===========================================
 
 ### problemas enunciados
 Problema 1: Búsqueda en Matriz (Gemas del Infinito)
