@@ -16,7 +16,7 @@ Sigue estos pasos para ejecutar el proyecto desde cero en tu máquina local.
 ### 1. Clonar el repositorio
 ```bash
 git clone <URL_DEL_REPOSITORIO>
-cd ultron_hack
+cd ultron_proyect
 
 ### 2. Crear entorno virtual
 # Windows
